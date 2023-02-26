@@ -45,12 +45,12 @@ API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
-# Bot settings
+# Bot settingsb58f576fed14cd645d2cf
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/eb5c915f53c3a76f91df7.jpg https://telegra.ph/file/f6a3dacc872344b5b08af.jpg https://telegra.ph/file/0ddd08d70e9b4f2a4fefc.jpg https://telegra.ph/file/8d41e7c014dd233b2598c.jpg https://telegra.ph/file/cf7a2f8750ed9f100a418.jpg https://telegra.ph/file/394fa8f11c990ef6ff219.jpg https://telegra.ph/file/dacfb95b79b1e89a5cce0.jpg https://telegra.ph/file/27bc058c51ea2af6613fe.jpg https://telegra.ph/file/3374d5a93f335d14a7be3.jpg https://telegra.ph/file/e738637d65c6d969ba2bd.jpg https://telegra.ph/file/c5ae3d8ad2053758b4f31.jpg https://telegra.ph/file/9ae2b1809545e79406e13.jpg https://telegra.ph/file/868cfbb407e2aa12629da.jpg https://telegra.ph/file/91dc61ec99084840f3790.jpg https://telegra.ph/file/69927fa6b8232cebe0b95.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/ab33dea823a0b37f00df8.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://te.legra.ph/file/233841c6c0804647d74c8.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://te.legra.ph/file/f304c726371d876ba39c0.jpg")
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/e54cae941b9b81f13eb71.jpg")
@@ -75,8 +75,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Jayanna:Jayanna2023@yash.tm1c2bd.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Peter_filter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "")
 
@@ -84,9 +84,9 @@ MONGO_URL = os.environ.get('MONGO_URL', "")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 #url links
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0171eba95f837a455105157e33525e949b2b95c2')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://mrlinks.xyz')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'bf901a1e4b775419d81f89bf396337bcdbb147c9')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #Auto approve 
 #In private group or channel must enable request admin approval 
@@ -105,11 +105,11 @@ MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MLZ_BOTZ")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/fileschannellls")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001766104157'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MLZ_BOTZ_SUPPORT')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CUSTOM_FILE_CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
