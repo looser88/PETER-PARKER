@@ -48,12 +48,12 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settingsb58f576fed14cd645d2cf
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/ab33dea823a0b37f00df8.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://te.legra.ph/file/233841c6c0804647d74c8.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://te.legra.ph/file/f304c726371d876ba39c0.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/bde9babd742b7980663fc.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://graph.org/file/5e57479b041fe676dc0d9.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://graph.org/file/084bb003de163373b8875.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/e54cae941b9b81f13eb71.jpg")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://graph.org/file/5b925763e05d1bf973a0a.jpg")
 MELCOW_VID = environ.get('MELCOW_VID',"")
 
 
